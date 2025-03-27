@@ -1,0 +1,15 @@
+[package]
+name = "cytern"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ MyModule = "0x633ee67ea70850702647b1544b6869f6001b1b9ff1915d355613c5244cb08678",
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
